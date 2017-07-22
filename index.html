@@ -438,7 +438,6 @@
                        <div>
                            <label for="contactEmail">Email <span class="required">*</span></label>
                            <input type="text" name="email" placeholder="Your email" />
-                           <input type="text" name="_gotcha" style="display:none" />
                        </div>
                        <div>
                            <label for="contactSubject">Subject</label>
@@ -450,6 +449,8 @@
                        </div>
                        <div>
                            <button type="submit" class="submit">Submit!</button>
+                           <input type="text" name="_gotcha" style="display:none" />
+                           <input type="hidden" name="_next" value="/thanks.html" />
                        </div>
                    </fieldset>
                </form> <!-- Form End -->
