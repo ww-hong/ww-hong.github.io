@@ -325,13 +325,23 @@ ul#nav li.current a { color: #F06000; }
     border-radius: 3px 0 0 3px;
 }
 
+.se {
+    width: 95%;
+    -moz-animation: se 2s ease;
+    -webkit-animation: se 2s ease;
+}
+.tpm {
+    width: 90%;
+    -moz-animation: tpm 2s ease;
+    -webkit-animation: tpm 2s ease;
+}
 .matlab {
     width: 90%;
     -moz-animation: matlab 2s ease;
     -webkit-animation: matlab 2s ease;
 }
 .python {
-    width: 70%;
+    width: 80%;
     -moz-animation: python 2s ease;
     -webkit-animation: python 2s ease;
 }
@@ -350,7 +360,7 @@ ul#nav li.current a { color: #F06000; }
     -moz-animation: agile 2s ease;
     -webkit-animation: agile 2s ease;
 }
-.issue {
+.uml {
     width: 40%;
     -moz-animation: issue 2s ease;
     -webkit-animation: issue 2s ease;
@@ -371,13 +381,21 @@ ul#nav li.current a { color: #F06000; }
     -webkit-animation: lightroom 2s ease;
 }
 
+@-moz-keyframes se {
+    0%   { width: 0px;  }
+    100% { width: 95%;  }
+}
+@-moz-keyframes tpm {
+    0%   { width: 0px;  }
+    100% { width: 90%;  }
+}
 @-moz-keyframes matlab {
     0%   { width: 0px;  }
     100% { width: 90%;  }
 }
 @-moz-keyframes python {
     0%   { width: 0px;  }
-    100% { width: 70%;  }
+    100% { width: 80%;  }
 }
 @-moz-keyframes cpp {
     0%   { width: 0px;  }
@@ -391,7 +409,7 @@ ul#nav li.current a { color: #F06000; }
     0%   { width: 0px;  }
     100% { width: 55%;  }
 }
-@-moz-keyframes issue {
+@-moz-keyframes uml {
     0%   { width: 0px;  }
     100% { width: 40%;  }
 }
@@ -408,13 +426,21 @@ ul#nav li.current a { color: #F06000; }
     100% { width: 95%;  }
 }
 
+@-webkit-keyframes se {
+    0%   { width: 0px;  }
+    100% { width: 95%;  }
+}
+@-webkit-keyframes tpm {
+    0%   { width: 0px;  }
+    100% { width: 90%;  }
+}
 @-webkit-keyframes matlab {
     0%   { width: 0px;  }
     100% { width: 90%;  }
 }
 @-webkit-keyframes python {
     0%   { width: 0px;  }
-    100% { width: 70%;  }
+    100% { width: 80%;  }
 }
 @-webkit-keyframes cpp {
     0%   { width: 0px;  }
@@ -428,7 +454,7 @@ ul#nav li.current a { color: #F06000; }
     0%   { width: 0px;  }
     100% { width: 55%;  }
 }
-@-webkit-keyframes issue {
+@-webkit-keyframes uml {
     0%   { width: 0px;  }
     100% { width: 40%;  }
 }
